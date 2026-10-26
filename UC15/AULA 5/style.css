@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+body {
+    background-color:rgb(184, 155, 201)
+}
+h1{
+background-color: rgb(146, 112, 190);
+color:rgb(31, 3, 54);
+
+  font-size: 50px;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+ margin: 2%;
+ margin-bottom: 10px;
+}
+
+p{
+  margin:2%;
+  margin-top:10;
+  font-size: 20px;
+
+}
+
+.primeiroconteudo{
+  display:flex;
+  align-items: left;
+  gap: 20px;
+
+}
+.texto{
+ flex: 1;
+}
+
+.primeiraimagem {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 33%;
+    
+}
+.galeria{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top:80px;
+
+}
+.imagemgaleria {
+
+width: 250px;
+height: 400px;
+object-fit: cover;
+border-radius:30%;
+
+
+}
+
+.galeria2{
+display:flex;
+justify-content: center;
+align-items: center;
+gap: 80px;
+margin-top: 50px;
+
+}
+.imagemdeitada{
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+
+}
+
+.ultimoconteudo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  margin-top: 40px;
+
+}
+
+.ultimaimagem{
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.texto2{
+  width: 300px;
+  text-align: center;
+}
