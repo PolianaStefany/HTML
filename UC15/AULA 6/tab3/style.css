@@ -1,0 +1,35 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+
+}
+
+table{
+width: 100%;
+max-width:800px;
+border:3px solid;
+border-collapse: collapse;
+font-size:15px;
+
+
+}
+
+th, td {
+padding: 12px 15px;
+text-align: left;
+border: 1px solid;
+
+}
+thead th{
+    background-color: rgba(114, 19, 151, 0.452);
+    color:rgb(7, 14, 14);
+    font-weight:rgb(36, 35, 35);
+    border:2px solid;
+}
+
+.categoria{
+    background-color: rgb(255, 223, 228);
+    font-weight: bold;
+    color:rgb(12, 11, 10);
+    
+}

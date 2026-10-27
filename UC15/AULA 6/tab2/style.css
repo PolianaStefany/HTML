@@ -1,0 +1,34 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+
+}
+
+table{
+width: 100%;
+max-width:800px;
+border:3px solid;
+border-collapse: collapse;
+font-size:15px;
+
+
+}
+
+th, td {
+padding: 12px 15px;
+text-align: left;
+border: 1px solid;
+
+}
+thead th{
+    background-color: rgb(64, 57, 88);
+    color:azure;
+    font-weight:antiquewhite;
+    border:2px solid;
+}
+
+/*efeito Zebra: cores alternadas nas linhas pares */
+
+tbody tr:nth-child(even){
+    background-color: rgb(206, 196, 252);
+}
