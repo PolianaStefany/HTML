@@ -1,0 +1,32 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+  background-color: #1a1919;
+  color: #f5f5f5;
+  font-size: 20px;
+}
+
+th {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  text-align: left;
+  padding: 25px 30px;
+  
+}
+
+td {
+  padding: 15px 30px;
+  border-bottom: 1px solid #303030;
+}
+
+.ativo {
+  color: #22e879;
+}
+

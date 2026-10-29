@@ -1,0 +1,26 @@
+
+
+
+table{
+width: 100px;
+border-collapse: collapse;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+width: 100%;
+
+}
+th{
+background-color: #2962f0;
+color:white;
+text-align: left;
+font-size: 28px;
+padding: 20px 26px;
+
+}
+td{
+font-size: 28px;
+padding: 20px 26px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #e2e8f0;
+}
