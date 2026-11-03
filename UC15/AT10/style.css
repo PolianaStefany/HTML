@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    padding: 30px 18px;
+}
+
+.container {
+    width: 100%;
+    overflow-x: auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+}
+
+table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+    color: #172b46;
+}
+
+thead {
+    background: #101729;
+    color: white;
+}
+
+th {
+    padding: 28px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+td {
+    padding: 26px 20px;
+    text-align: center;
+    font-size: 19px;
+    border-bottom: 1px solid #dce3ec;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+    text-align: left;
+}
+
+.regiao {
+    background: #f7f9fc;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.destaque {
+    background: #f7f9fc;
+    font-weight: bold;
+    border-bottom: 2px solid #cbd5e1;
+}
+
+.positivo {
+    color: #00a84f;
+}
+
+.negativo {
+    color: #ff2525;
+}
+
+.status {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.sucesso {
+    background: #d9fbe7;
+    color: #087b42;
+}
+
+.falha {
+    background: #ffe1e1;
+    color: #c00000;
+}
+
+tfoot {
+    background: #eef3f9;
+    border-top: 3px solid #9baec5;
+}
+
+tfoot td {
+    font-weight: bold;
+    border-bottom: 3px solid #9baec5;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+
+    th {
+        font-size: 15px;
+    }
+
+    td {
+        font-size: 15px;
+        padding: 18px 12px;
+    }
+}

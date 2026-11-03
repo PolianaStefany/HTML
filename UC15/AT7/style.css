@@ -1,0 +1,38 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+th{
+    color: #647b91;
+    text-align: left;
+    padding: 10px 12px;
+}
+
+td{
+    padding:15px 12px;
+   border-bottom: 1px solid #ddd;
+   text-align: left;
+}
+
+.vermelho{
+    color: rgb(158, 4, 4);
+    background-color: rgb(255, 204, 204);
+    border-radius: 30px;
+    padding: 8px 18px;
+}
+
+.amarelo{
+    color: rgb(95, 95, 3);
+    background-color: rgb(252, 246, 172);
+    border-radius: 30px;
+    padding: 8px 25px;
+}
+
+.Verde{
+    color: green;
+    background-color: rgb(204, 238, 204);
+    border-radius: 30px;
+    padding: 8px 15px;
+}

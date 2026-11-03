@@ -1,0 +1,30 @@
+body{
+    font-family: monospace;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th{
+    border:1px solid #dfd6d6;
+    text-align: left;
+    background-color: #e2e8f0;
+    padding: 10px 18px;
+
+}
+td{
+   padding: 10px 18px;
+   border:1px solid #dfd6d6;
+}
+
+.positivo{
+    color: green;
+}   
+
+.negativo{
+    color: red;
+}   

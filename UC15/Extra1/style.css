@@ -1,0 +1,49 @@
+     body {
+            font-family: Arial, sans-serif;
+            margin: 24px;
+            background-color: #ffffff;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .tabela-container {
+            width: 100%;
+            overflow-x: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            min-width: 1000px;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #374151;
+            color: white;
+            padding: 14px 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            color: #111;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background-color: #f3f4f6;
+        }
